@@ -4,6 +4,7 @@ import useFetch from '../hooks/useFetch'
 
 const Home = () => {
 	const { data } = useFetch('/products?populate=*&filters[isNew]=true')
+	console.log(data)
 
 	return (
 		<div className='mb-16'>
