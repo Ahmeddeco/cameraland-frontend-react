@@ -31,7 +31,7 @@ const router = createBrowserRouter([
 
 const App = () => {
 	return (
-		<div className=''>
+		<div className='antialiased'>
 			<RouterProvider router={router} />
 		</div>
 	)

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from 'react'
 
 const CategoryNav = () => {
-  return <div>CategoryNav</div>;
-};
+	return <div>CategoryNav</div>
+}
 
-export default CategoryNav;
+export default CategoryNav

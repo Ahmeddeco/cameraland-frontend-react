@@ -6,6 +6,7 @@ module.exports = {
       primary: '"Exo 2"',
     },
     container: {
+      center: true,
       padding: {
         DEFAULT: '15px',
       },
@@ -42,4 +43,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+}
