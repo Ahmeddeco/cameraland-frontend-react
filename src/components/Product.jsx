@@ -32,7 +32,7 @@ const Product = ({ product }) => {
 					</div>
 					{/*  title*/}
 					<div className='text-xl mb-4 lg:mb-9'>
-						{product.attributes.title.substring(0, 35)}...
+						{product.attributes.title.substring(0, 28)}...
 					</div>
 					{/* price*/}
 					<div className='text-accent text-lg '>

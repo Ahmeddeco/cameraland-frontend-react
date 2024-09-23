@@ -15,7 +15,7 @@ const Header = () => {
 	return (
 		<header className='bg-primary py-6 fixed w-full top-0 z-40 lg:relative xl:mb-10'>
 			<div className='container'>
-				<div className='flex flex-row gap-4 lg:items-center justify-between mb-4 lg:mb-0'>
+				<div className='flex flex-row gap-4 lg:items-center justify-between mb-4 xl:mb-0'>
 					{/* menu */}
 					<div
 						onClick={() => setCatNavMobile(true)}
@@ -67,7 +67,7 @@ const Header = () => {
 					</div>
 				</div>
 				{/* search form shown on mobile only */}
-				<div className='lg:hidden'>
+				<div className='xl:hidden'>
 					<SearchForm />
 				</div>
 			</div>
