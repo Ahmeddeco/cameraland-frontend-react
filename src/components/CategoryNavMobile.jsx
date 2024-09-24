@@ -5,7 +5,6 @@ import useFetch from '../hooks/useFetch'
 
 const CategoryNavMobile = ({ setCatNavMobile }) => {
 	const { data } = useFetch(`/categories`)
-	console.log(data)
 
 	return (
 		<aside className='w-full h-full bg-primary p-8'>
